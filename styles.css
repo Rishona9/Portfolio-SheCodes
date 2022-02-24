@@ -86,8 +86,10 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 600px) {
+@media (max-width: 576px) {
   .primary-link {
-    max-width: 0 auto;
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
